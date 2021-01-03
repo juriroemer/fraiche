@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 RED='\033[0;31m'
-NC='\033[0m'
 BOLD=$(tput bold)
 NORM=$(tput sgr0)
 
@@ -22,46 +21,46 @@ echo "${RED}${BOLD}(2/x)${NORM} ...done\n"
 # Install formulas
 echo "\n${RED}${BOLD}(3/x)${NORM} Installing formulas\n"
 brew install \
-		wget \
-		htop \
-		macvim
+    wget \
+    htop \
+    macvim
 echo "\n${RED}${BOLD}(3/x)${NORM} ...done\n"
 
 
 # Install casks
 echo "\n${RED}${BOLD}(4/x)${NORM} Installing casks\n"
 brew install --cask \
-		owncloud \
-		vlc \
-		dropbox \
-		google-chrome \
-		focus \
-		zoom \
-		iriunwebcam \
-		spotify \
-		sound-control \
-		lulu \
-		iterm2 \
-		anki \
-		netnewswire \
-		anydesk \
-		fanny \
-		coconutbattery \
-		calibre \
-		spek \
-		rectangle \
-		tunnelblick \
-		hex-fied \
-		burp-suite \
-		local \
-		cutter \
-		gimp \
-		transmission \
-		nordvpn \
-		appcleaner \
-		mactex-no-gui \
-		tex-live-utility \
-		texstudio
+    owncloud \
+	vlc \
+	dropbox \
+	google-chrome \
+    focus \
+	zoom \
+	iriunwebcam \
+	spotify \
+	sound-control \
+	lulu \
+	iterm2 \
+	anki \
+	netnewswire \
+	anydesk \
+	fanny \
+	coconutbattery \
+	calibre \
+	spek \
+	rectangle \
+	tunnelblick \
+	hex-fied \
+	burp-suite \
+	local \
+	cutter \
+	gimp \
+	transmission \
+	nordvpn \
+	appcleaner \
+	mactex-no-gui \
+	tex-live-utility \
+	texstudio
 echo "\n${RED}${BOLD}(4/x)${NORM} ...done\n"
 
 # Get further apps for manual installation (meeter, xournal++)
