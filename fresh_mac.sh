@@ -31,36 +31,36 @@ echo "\n${RED}${BOLD}(3/x)${NORM} ...done\n"
 echo "\n${RED}${BOLD}(4/x)${NORM} Installing casks\n"
 brew install --cask \
     owncloud \
-	vlc \
-	dropbox \
-	google-chrome \
+    vlc \
+    dropbox \
+    google-chrome \
     focus \
-	zoom \
-	iriunwebcam \
-	spotify \
-	sound-control \
-	lulu \
-	iterm2 \
-	anki \
-	netnewswire \
-	anydesk \
-	fanny \
-	coconutbattery \
-	calibre \
-	spek \
-	rectangle \
-	tunnelblick \
-	hex-fied \
-	burp-suite \
-	local \
-	cutter \
-	gimp \
-	transmission \
-	nordvpn \
-	appcleaner \
-	mactex-no-gui \
-	tex-live-utility \
-	texstudio
+    zoom \
+    iriunwebcam \
+    spotify \
+    sound-control \
+    lulu \
+    iterm2 \
+    anki \
+    netnewswire \
+    anydesk \
+    fanny \
+    coconutbattery \
+    calibre \
+    spek \
+    rectangle \
+    tunnelblick \
+    hex-fied \
+    burp-suite \
+    local \
+    cutter \
+    gimp \
+    transmission \
+    nordvpn \
+    appcleaner \
+    mactex-no-gui \
+    tex-live-utility \
+    texstudio
 echo "\n${RED}${BOLD}(4/x)${NORM} ...done\n"
 
 # Get further apps for manual installation (meeter, xournal++)
