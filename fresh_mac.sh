@@ -9,8 +9,8 @@ NORM=$(tput sgr0)
 # copy dotfiles (symlinks instead?)
 # source .zshrc
 echo "\n${RED}${BOLD}(1/x)${NORM} copying dotfiles\n"
-cp .zshrc ~/.zshrc
-cp .vimrc ~/.vimrc
+cp ./dotfiles/.zshrc ~/.zshrc
+cp ./dotfiles/.vimrc ~/.vimrc
 source ~/.zshrc
 echo "${RED}${BOLD}(1/x)${NORM} ...done\n"
 
