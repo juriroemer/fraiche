@@ -1,0 +1,7 @@
+*
+!.gitignore
+!dotfiles/*
+!.vimrc
+!.zshrc
+!.zshenv
+!fresh_mac.sh
