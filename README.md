@@ -3,5 +3,9 @@ Everything I need to setup a new system.
 **New mac**
 
 ```
-git clone https://github.com/juriroemer/fraiche.git && cd fraiche && chmod +x fresh_mac.sh && ./fresh_mac.sh
+xcode-select --install && \
+git clone --bare https://github.com/juriroemer/fraiche.git $HOME/.dotfiles && \
+cd $HOME && \
+chmod +x setup && \
+./setup
 ```
