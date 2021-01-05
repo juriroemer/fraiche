@@ -23,7 +23,14 @@ fi
 
 # Install Homebrew
 echo "\n${RED}${BOLD}(2/6)${NORM} Installing Homebrew\n"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if brew -h 1>/dev/null
+then
+    echo "Brew already installed."
+else
+    echo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    export PATH=/opt/homebrew/bin:$PATH
+fi
+
 echo "${RED}${BOLD}(2/6)${NORM} ...done\n"
 
 # Install formulas
