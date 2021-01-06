@@ -8,9 +8,9 @@ NORM=$(tput sgr0)
 # copy dotfiles (replace with git clone --bare)
 # source .zshrc
 echo "\n${RED}${BOLD}(1/6)${NORM} copying dotfiles\n"
-cp ./dotfiles/.zshrc ~/.zshrc
-cp ./dotfiles/.vimrc ~/.vimrc
 source ~/.zshrc
+source ~/.zshenv
+source ~/.vimrc
 echo "${RED}${BOLD}(1/6)${NORM} ...done\n"
 
 # Install rosetta on Apple Silicon if not installed
@@ -28,7 +28,6 @@ then
     echo "Brew already installed."
 else
     echo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-    export PATH=/opt/homebrew/bin:$PATH
 fi
 
 echo "${RED}${BOLD}(2/6)${NORM} ...done\n"
