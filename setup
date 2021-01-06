@@ -18,7 +18,7 @@ if [[ $(arch) == 'arm64' && -z $(pkgutil --pkgs | grep Rosetta) ]]
 then
     echo "\n${RED}${BOLD}(1.5/6)${NORM} Installing rosetta2\n"
     softwareupdate --install-rosetta
-    "${RED}${BOLD}(1.5/6)${NORM} ...done\n"
+    echo "\n${RED}${BOLD}(1.5/6)${NORM} ...done\n"
 fi
 
 # Install Homebrew
