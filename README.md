@@ -1,6 +1,4 @@
-Everything I need to setup a new system.
-
-**New mac**
+**New mac?**
 
 ```
 xcode-select --install && \
