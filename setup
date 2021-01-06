@@ -95,4 +95,4 @@ echo "\n${RED}${BOLD}(6/6)${NORM} ...done\n"
 # what's next?
 echo "\n${RED}${BOLD}Next:${NORM} Install xournal++, meeter, oh-my-zsh?\n"
 
-echo "Don't forget the ssh-keys!"
+echo "Don't forget the ssh-keys and run PlugInstall!"
