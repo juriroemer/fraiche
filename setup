@@ -37,7 +37,8 @@ echo "\n${RED}${BOLD}(3/6)${NORM} Installing formulas\n"
 brew install \
     wget \
     htop \
-    macvim
+    macvim \
+    tmux
 echo "\n${RED}${BOLD}(3/6)${NORM} ...done\n"
 
 
