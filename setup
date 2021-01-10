@@ -73,7 +73,8 @@ brew install --cask \
     appcleaner \
     mactex-no-gui \
     tex-live-utility \
-    texstudio
+    texstudio \
+    the-unarchiver
 echo "\n${RED}${BOLD}(4/6)${NORM} ...done\n"
 
 
