@@ -74,7 +74,8 @@ brew install --cask \
     mactex-no-gui \
     tex-live-utility \
     texstudio \
-    the-unarchiver
+    the-unarchiver \
+    mattermost 
 echo "\n${RED}${BOLD}(4/6)${NORM} ...done\n"
 
 
