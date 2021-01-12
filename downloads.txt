@@ -1,2 +1,1 @@
-https://github.com/xournalpp/xournalpp/releases/download/1.0.20/xournalpp-1.0.20-macos.zip
-https://github.com/thenickdude/wacom-driver-fix/releases/download/patch-8/Install-Wacom-Tablet-6.3.15-3-patched.pkg
+https://github.com/thenickdude/wacom-driver-fix/releases/download/patch-8/Install-Wacom-Tablet-5.3.7-6-patched.pkg
