@@ -75,7 +75,8 @@ brew install --cask \
     tex-live-utility \
     texstudio \
     the-unarchiver \
-    mattermost 
+    mattermost \ 
+    blurred
 echo "\n${RED}${BOLD}(4/6)${NORM} ...done\n"
 
 
