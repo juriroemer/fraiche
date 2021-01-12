@@ -76,7 +76,8 @@ brew install --cask \
     texstudio \
     the-unarchiver \
     mattermost \ 
-    blurred
+    blurred \
+    hiddenbar
 echo "\n${RED}${BOLD}(4/6)${NORM} ...done\n"
 
 
