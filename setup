@@ -27,7 +27,7 @@ if brew -h 1>/dev/null
 then
     echo "Brew already installed."
 else
-    echo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 echo "${RED}${BOLD}(2/6)${NORM} ...done\n"
