@@ -38,7 +38,10 @@ brew install \
     wget \
     htop \
     macvim \
-    tmux
+    tmux \
+    coreutils \
+    socat \
+pip3 install --user powerline-status
 echo "\n${RED}${BOLD}(3/6)${NORM} ...done\n"
 
 
